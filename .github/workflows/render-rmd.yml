@@ -19,7 +19,10 @@ jobs:
           r-version: '4.3.1'
 
       - name: Install Quarto
-        uses: quarto-dev/quarto-actions/setup-quarto@v2
+        run: |
+          sudo apt-get install wget -y
+          wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.9.9/quarto-1.9.9-linux-amd64.deb
+          sudo dpkg -i quarto-1.9.9-linux-amd64.deb
 
       - name: Install R packages
         run: |
@@ -32,7 +35,7 @@ jobs:
         run: quarto render
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v6
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
