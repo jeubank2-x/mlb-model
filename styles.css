@@ -1,0 +1,4 @@
+/* Only change font for code blocks */
+pre {
+  font-family: "Consolas", monospace;
+}
