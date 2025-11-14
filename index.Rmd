@@ -19,16 +19,11 @@ Preliminary Definitions:
 | Hard Hit % | Percentage of a batter’s batted balls hit at 95+ mph. |
 | Index | Player's HR/PA (or HR/IP) divided by the league average. Above 1.0 indicates above-average performance or susceptibility. |
 
-Data Preprocessing & Cross-Matching:
+Data Processing & Cross-Matching:
 
-```r
-library(readr)
-library(tidyverse)
 
 # Read in data
-batters <- read_csv("~/Downloads/stats.csv")
-batters_recent <- read_csv("~/Downloads/savant_data.csv")
-pitchers <- read_csv("~/Downloads/stats (1).csv")
+![](assets/images/Picture5.png)
 
 # Filter missing data
 batters_recent <- batters_recent %>%
