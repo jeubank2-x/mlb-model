@@ -1,4 +1,5 @@
-pre, code {
-  font-family: "Consolas", monospace !important;
-  font-size: 10px !important;
+/* Force code blocks to Consolas 10px in Material theme */
+:root {
+  --md-code-font: "Consolas", monospace !important;
+  --md-code-font-size: 10px !important;
 }
