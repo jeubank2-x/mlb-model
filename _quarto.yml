@@ -11,4 +11,6 @@ website:
 
 format:
   html:
-    theme: material
+    theme:
+      name: material
+    css: styles.css
