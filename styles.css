@@ -1,18 +1,13 @@
-/* Override ALL Material + Quarto code block styling */
-div.sourceCode,
-div.sourceCode pre,
-div.sourceCode code,
-pre.sourceCode,
-pre code,
-code.sourceCode,
-pre {
+/* Force all code blocks to use Consolas, size 10 */
+div.sourceCode, 
+div.sourceCode pre, 
+div.sourceCode code, 
+div.cell.code, 
+div.cell.code pre, 
+div.cell.code code,
+div.cell.code .highlight,
+div.cell.code .highlight * {
   font-family: "Consolas", monospace !important;
   font-size: 10px !important;
-}
-
-/* Override highlight.js styles used by Material */
-.hljs, 
-.hljs * {
-  font-family: "Consolas", monospace !important;
-  font-size: 10px !important;
+  line-height: 1.3 !important;
 }
