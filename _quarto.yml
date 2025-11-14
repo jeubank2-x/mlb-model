@@ -11,5 +11,6 @@ website:
 
 format:
   html:
-    theme: material       
+    theme: cosmo    
     css: styles.css
+
