@@ -23,7 +23,7 @@ Data Processing & Cross-Matching:
 
 
 # Read in data
-![](assets/images/Picture5.png)
+![](assets/images/Photo1.png)
 
 # Filter missing data
 batters_recent <- batters_recent %>%
