@@ -22,7 +22,6 @@ Preliminary Definitions:
 Data Preprocessing & Cross-Matching:
 
 ```r
-# Load required libraries
 library(readr)
 library(tidyverse)
 
@@ -88,8 +87,8 @@ These tables allow you to identify good batters versus susceptible pitchers usin
 Results (08/09/2025):
 
 Metric	Predicted	Actual
-High Value Batters	13	3 correct
-Good Batters	52	18 correct
+High Value Batters	3 of 13 correct
+Good Batters	18 of 52 correct
 
 The model captured several statistically advantageous matchups, demonstrating potential for predicting HR outcomes.
 
