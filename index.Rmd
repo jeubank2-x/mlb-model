@@ -84,7 +84,7 @@ bad_pitchers <- bad_pitchers %>%
 
 These tables allow you to identify good batters versus susceptible pitchers using any MLB schedule. Additional metrics like hard hit % can be used to refine player selection.
 
-Results (08/09/2025):
+# Results (08/09/2025):
 
 Metric	Predicted	Actual
 High Value Batters	3 of 13 correct
