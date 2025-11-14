@@ -1,13 +1,4 @@
-/* Force all code blocks to use Consolas, size 10 */
-div.sourceCode, 
-div.sourceCode pre, 
-div.sourceCode code, 
-div.cell.code, 
-div.cell.code pre, 
-div.cell.code code,
-div.cell.code .highlight,
-div.cell.code .highlight * {
+pre, code {
   font-family: "Consolas", monospace !important;
   font-size: 10px !important;
-  line-height: 1.3 !important;
 }
