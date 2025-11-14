@@ -224,7 +224,9 @@ ul.task-list li input[type="checkbox"] {
 <p>good_batters &lt;- good_batters %&gt;% select(last_name, first_name, player_id, ab, pa.x, pa.y, hit, home_run, hard_hit_percent)</p>
 <p>bad_pitchers &lt;- bad_pitchers %&gt;% select(last_name, first_name, player_id, p_formatted_ip, home_run, hr_per_ip, barrel_batted_rate, exit_velocity_avg, batting_avg)</p>
 <p>These tables allow you to identify good batters versus susceptible pitchers using any MLB schedule. Additional metrics like hard hit % can be used to refine player selection.</p>
-<p>Results (08/09/2025):</p>
+</section>
+<section id="results-08092025" class="level1">
+<h1>Results (08/09/2025):</h1>
 <p>Metric Predicted Actual High Value Batters 3 of 13 correct Good Batters 18 of 52 correct</p>
 <p>The model captured several statistically advantageous matchups, demonstrating potential for predicting HR outcomes.</p>
 <p>Conclusion: The model successfully identifies statistically favorable batter-pitcher matchups. Although Home Runs were used as the main example, the same framework can extend to other performance metrics. Limitations include small sample sizes and rapidly changing player performance. Future improvements could include incorporating park factors, weighting recent stats more heavily than season averages, using multiple metrics simultaneously, and implementing machine learning for enhanced predictions.</p>
