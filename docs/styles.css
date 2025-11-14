@@ -1,6 +1,13 @@
-/* Force Consolas for code blocks */
+/* FULL override for Quarto + Material theme code blocks */
 pre.sourceCode, 
 pre, 
-code.sourceCode {
+code.sourceCode, 
+pre code, 
+div.sourceCode, 
+div.sourceCode pre, 
+div.sourceCode code,
+.hljs {
   font-family: "Consolas", monospace !important;
+  font-size: 10px !important;
+  line-height: 1.35;
 }
